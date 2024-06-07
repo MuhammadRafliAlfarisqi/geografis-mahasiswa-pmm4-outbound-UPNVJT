@@ -1,0 +1,340 @@
+/* STYLE HALAMAN UTAMA */
+body {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color: #191e29;
+}
+
+body .kiri-home {
+    float: left;
+    width: 50%;
+    height: 90vh;
+}
+
+body .layout-kiri-home {
+    background-color: #0c3b2e;
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body .kiri-home h2 {
+    color: #fdb095;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+}
+
+body .layout-kiri-home p {
+    color: #f1f1f1;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+body .kanan-home {
+    float: left;
+    width: 50%;
+    height: 90vh;
+}
+
+body .kanan-home img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body .search {
+    float: left;
+    width: 80%;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}
+
+body .search form input[type = search] {
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #fdb095;
+    color: #f1f1f1;
+    background-color: transparent;
+    width: 700px;
+}
+
+body .search form input[type = submit] {
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    outline: none;
+    width: 100px;
+    border: 0;
+    color: #f1f1f1;
+    background-color: #0c3b2e;
+    cursor: pointer;
+    margin-left: 1%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.25s;
+}
+
+body .search form a {
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    background-color: #0c3b2e;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 1%;
+    transition: 0.25s;
+}
+
+body .search form a:hover,
+body .search form input[type = submit]:hover {
+    background-color: #fdb095;
+    color: #000;
+}
+
+.menu-search {
+    text-align: center;
+}
+
+.menu-search form input[type = search] {
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #fdb095;
+    color: #f1f1f1;
+    background-color: transparent;
+    width: 700px;
+}
+
+.menu-search form input[type = submit] {
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    outline: none;
+    width: 100px;
+    border: 0;
+    color: #f1f1f1;
+    background-color: #0c3b2e;
+    cursor: pointer;
+    margin-left: 1%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.25s;
+}
+
+.menu-search form a {
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    background-color: #0c3b2e;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 1%;
+    transition: 0.25s;
+}
+
+.menu-search form a:hover,
+.menu-search form input[type = submit]:hover {
+    background-color: #fdb095;
+    color: #000;
+}
+
+body .table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #1e2328;
+}
+
+body .table tr th {
+    background: #0c3b2e;
+    color: #fdb095;
+    font-weight: normal;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+body .table tr td {
+    color: #f1f1f1;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+body .table tr {
+    transition: 0.5s;
+}
+
+body .table .tombol {
+    background-color: #0c3b2e;
+    color: #f1f1f1;
+    outline: none;
+    border: 1px solid #0c3b2e;
+    width: 60px;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+body .table .tombol:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #fdb095;
+    border-color: #fdb095;
+}
+
+body .table tr:hover {
+    background-color: #3b3f46;
+}
+
+body .table tr:nth-child(even) {
+    background-color: #3b3f46;
+}
+
+body .layout-about {
+    background-color: #0c3b2e;
+    padding: 20px;
+    margin-top: 2%;
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+body .layout-about h2 {
+    font-family: sans-serif;
+    color: #fdb095;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+body .layout-about p {
+    color: #f1f1f1;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE UNTUK NAVBAR */
+.topnav {
+    overflow: hidden;
+    background-color: #0c3b2e;
+}
+  
+.topnav a {
+    font-family: sans-serif;
+    float: left;
+    display: block;
+    color: #fdb095;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.25s;
+}
+  
+.topnav a:hover {
+    color: #f1f1f1;
+}
+  
+.topnav .icon {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE INPUT */
+.kiri-input {
+    float: left;
+    width: 40%;
+    background-color: #0c3b2e;
+    padding: 0% 5% 0% 5%;
+}
+
+.layout-input h3 {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 22px;
+    color: #f1f1f1;
+}
+
+.layout-input input[type = text], input[type = date] {
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    width: 95%;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+    color: #fdb095;
+}
+
+.kiri-input .list-item {
+    background-color: #3b3f46;
+    margin-top: -2%;
+}
+
+.kanan-input {
+    float: left;
+    width: 40%;
+    background-color: #0c3b2e;
+    padding: 0% 5% 0% 5%;
+}
+
+.kanan-input .list-item {
+    background-color: #3b3f46;
+    margin-top: -2%;
+}
+
+.layout-input input[type = submit] {
+    padding: 10px 0px 10px 0px;
+    width: 150px;
+    font-size: 16px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background-color: #fdb095;
+    color: #0c3b2e;
+    border-radius: 5px;
+    transition: 0.25s;
+    margin-top: 3%;
+}
+
+.layout-input input[type = submit]:hover {
+    background-color: #0c3b2e;
+    color: #f1f1f1;
+}
